@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <cmath>
-
+// 20
 using namespace std;;
 
 int solve(string N)

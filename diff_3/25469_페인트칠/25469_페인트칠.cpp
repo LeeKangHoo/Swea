@@ -22,7 +22,6 @@ int calc(vector<vector<char>> num, int H, int W)
         }
     }
 
-
     // 행 검사
     
     for (int i = 0; i < H; i++)
