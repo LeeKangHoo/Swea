@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-
+//못풀어서 AI 한테 물어봄
 using namespace std;
 
 string solve(int L, int R)

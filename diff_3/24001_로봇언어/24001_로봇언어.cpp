@@ -29,7 +29,7 @@ int solve(string N)
             max_val = abs(cnt);
     }
     cnt = 0;
-    for(int i = 0; i < N.size(); i++)
+    for(int i = 0; i < N.size(); i++) 
     {
         if(N[i] == 'L')
         {

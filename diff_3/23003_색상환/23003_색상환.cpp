@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 
+//23:33
 //같은 색 E 0
 //인접한 색 A 1 ,-1
 // 반대 색 C 0
@@ -17,9 +18,9 @@ char solve(std::string* color)
         {
             if(color[0] == c[i+6])
             {
-                if(color[1] == c[i-5] || color[1] == c[i+7])
+                if(color[1] == c[i+5] || color[1] == c[i+7])
                     return 'A';
-                if(color[1] == c[i-3] || color[1] == c[i+9])
+                if(color[1] == c[i+3] || color[1] == c[i+9])
                     return 'C';
             }
         }
@@ -45,7 +46,7 @@ int main(int argc, char** argv)
         std::string color[2];
 
         std::cin >> color[0] >> color[1];
-        std::cout << color[0] << ", " << color[1] << std::endl;
+        // std::cout << color[0] << ", " << color[1] << std::endl;
 
         result[i] = solve(color);
     }
