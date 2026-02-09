@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 void dfs(int start, int cur, int cnt, int sum, int N, vector<vector<int>> &cost, vector<bool> &visited,vector<int> &result)
 {
     if (cnt == N) {
