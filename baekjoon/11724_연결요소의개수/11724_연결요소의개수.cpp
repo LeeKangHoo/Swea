@@ -2,7 +2,7 @@
 #include <vector>
 #include <queue>
 #include <algorithm>
-
+//29
 using namespace std;
 
 void bfs(int n, vector<vector<int>> &num, vector<bool> &visited)

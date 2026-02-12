@@ -3,6 +3,7 @@
 #include <string>
 #include <queue>
 #include <algorithm>
+//48
 using namespace std;
 
 int bfs(int x, int y,int N,vector<string> &num,vector<vector<bool>> &visited)
