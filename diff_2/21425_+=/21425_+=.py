@@ -1,3 +1,4 @@
+#17
 T = int(input())
 
 def solve(A,B,N):
