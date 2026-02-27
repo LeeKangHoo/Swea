@@ -1,4 +1,4 @@
-#
+#30
 T = int(input())
 
 def solve(P,target):
