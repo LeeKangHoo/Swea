@@ -1,9 +1,8 @@
-#
-
+#8
 T = int(input())
 
 for i in range(T):
-    N,M = map(int,input().split())
+    N , M = map(int,input().split())
     
     nums = list(map(int,input().split()))
 
