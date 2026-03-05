@@ -1,14 +1,8 @@
-#
+#43
 def solve(grid):
     r_grid = list(map(list,zip(*grid)))
     cnt1 = 0
     cnt2 = 0
-    
-    if H == 1 and W == 1:
-        if grid[0][0] == '.':
-            return 1
-        else:
-            return 0
 
     for n in range(H):
         if '.' not in grid[n]:
@@ -17,6 +11,9 @@ def solve(grid):
     for n in range(W):
         if '.' not in r_grid[n]:
             cnt2 += 1
+
+    if (cnt1 + cnt2) == (H+W):
+        return min(H,W)
 
     return cnt1 + cnt2
 
