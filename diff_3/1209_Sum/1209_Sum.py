@@ -1,4 +1,4 @@
-#
+# 30
 def solve(mapp):
     row_val = [sum(mapp[row]) for row in range(100)]
     col_val = [sum(col) for col in zip(*mapp)]
