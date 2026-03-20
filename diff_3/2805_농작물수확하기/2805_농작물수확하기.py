@@ -1,4 +1,4 @@
-#
+#28
 
 def solve():
     mid = N // 2
