@@ -1,4 +1,4 @@
-#
+#X
 dx = [0,0,-1,1]
 dy = [1,-1,0,0]
 def solve(mapp,x,y):
