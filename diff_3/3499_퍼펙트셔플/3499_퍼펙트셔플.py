@@ -1,4 +1,4 @@
-#
+#12
 
 def solve(cards):
     mid = int((len(cards) / 2) + 0.5)
