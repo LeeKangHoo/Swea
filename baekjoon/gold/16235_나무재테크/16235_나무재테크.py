@@ -36,7 +36,6 @@ def summer(dead_tree):
     for cx,cy,age in dead_tree:
         mapp[cx][cy] += age//2
     return
-# 가을 : 나무가 번식한다. 번식하는 나무는 나이가 5의 배수이어야한다. 인접한 8칸에 나이가 1인 나무가 생긴다.
 
 def fall():
     dx = [-1,-1,-1,0,0,1,1,1]
@@ -52,7 +51,7 @@ def fall():
                         if 0 <= nx < N and 0 <= ny < N:
                             tree[nx][ny].append(1)
     return
-# 겨울 : S2D2가 땅을 돌아다니면서 땅에 양분을 추가한다. 
+
 def winter():
     for i in range(N):
         for j in range(N):
